@@ -1,13 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const DropdownMenu = ({ title, poems, type }) => {
-  const [isOpen, setIsOpen] = React.useState(false);
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
-
+const DropdownMenu = ({ title, poems, type, isOpen, toggleDropdown }) => {
   return (
     <div className="mb-5 border border-gray-300 p-4 rounded-lg bg-orange-100">
       <h2
