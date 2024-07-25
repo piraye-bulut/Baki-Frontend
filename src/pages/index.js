@@ -7,3 +7,8 @@ export {Hayyam} from "./Hayyam";
 export {Mevlana} from "./Mevlana";
 export {Sadi} from "./Sadi";
 export {Hafız} from "./Hafız";
+export {Kaside} from "./Kaside";
+export {Musammat} from "./Musammat";
+export {Gazel} from "./Gazeller";
+export {Kıta} from "./Kıtalar";
+export {Matla} from "./Matlalar";
